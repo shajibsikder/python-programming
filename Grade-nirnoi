@@ -1,0 +1,14 @@
+
+marks = int(input("Enter your Marks:"))
+if(marks>=80):
+    print("your grade: A+")
+elif(marks>=70):
+    print("your grade: A")
+elif(marks>=60):
+    print("your grade: A-")
+elif(marks>=50):
+    print("your grade: B")
+elif(marks>=40):
+    print("your grade: C")
+else:
+    print("your Grade: F")
