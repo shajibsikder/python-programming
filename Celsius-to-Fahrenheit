@@ -1,0 +1,4 @@
+#সেলসিয়াস তাপমাত্রাকে ফারেনহাইট তাপমাত্রায় রুপান্তর
+C=float(input("Enter your Temparature:"))
+F=(((9/5)*C)+32)
+print("Centigrate Temparature is=",F)
