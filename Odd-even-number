@@ -1,0 +1,8 @@
+#Experiment Name : To find out odd and even number by using python program.
+A = int(input("Type Any Number:"))
+if(A%2==0):
+    print("Your Number=",A)
+    print("This Number is Even Number")
+else:
+    print("Your Number=", A)
+    print("This Number is Odd Number")
