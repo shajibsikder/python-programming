@@ -1,0 +1,12 @@
+import math
+def Tarea():
+ import math
+A = float(input("Enter A:"))
+B = float(input("Enter B:"))
+C = float(input("Enter C:"))
+#বিষমবাহু ত্রিভুজের ক্ষেএফল নির্ণয়
+if(A+B>C)and(B+C>A)and(C+A>B):
+    S = ((A+B+C)/2)
+    Area = math.sqrt(S*(S-A)*(S-B)*(S-C))
+    print("Area",Area)
+Tarea()
