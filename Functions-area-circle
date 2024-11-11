@@ -1,0 +1,7 @@
+def A_circle():
+    pi=float(input("Enter the value of pi:"))
+    r=float(input("Enter the value of r:"))
+    A=pi*r*r
+    #বৃত্তের ক্ষেএফল নির্ণয় Python Functions
+    print("Area of circle is=",A)
+A_circle()
