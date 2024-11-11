@@ -1,0 +1,9 @@
+def Largest():
+ A = int(input("Enter The value of A:"))
+ B = int(input("Enter the value of B:"))
+#দুইটি সংখ্যার মধ্যে বড় সংখ্যাটি নির্ণয়
+ if(A>B):
+    print("largest Number is A=",A)
+ else:
+    print("largest Number is B=",B)
+Largest()
