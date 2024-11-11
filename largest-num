@@ -1,0 +1,6 @@
+A = int(input("Enter The value of A:"))
+B = int(input("Enter the value of B:"))
+if(A>B):
+    print("largest",A)
+else:
+    print("largest Number=",B)
